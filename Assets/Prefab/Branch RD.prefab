@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 8188761570634939644}
   - component: {fileID: 230389285384139554}
   - component: {fileID: 5192040444020090855}
+  - component: {fileID: 4951586760320974199}
   m_Layer: 0
-  m_Name: Branch 2
+  m_Name: Branch RD
   m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,3 +249,16 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &4951586760320974199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280112999381705879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2b15dfbe1c3034391a6a44897a5df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: -2
